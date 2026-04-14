@@ -1,0 +1,50 @@
+[
+  {
+    "membro_id": 1,
+    "nome": "igor ferreira",
+    "telefone": "62999999999",
+    "tipo_inatividade": "ambos",
+    "mensagem": "Olá igor ferreira, sentimos sua falta! Como você e sua família estão? ",
+    "timestamp": "2026-04-14T17:03:46.708312"
+  },
+  {
+    "membro_id": 2,
+    "nome": "joao batista",
+    "telefone": "629334699",
+    "tipo_inatividade": "ambos",
+    "mensagem": "Olá joao batista, sentimos sua falta! Como você e sua família estão? ",
+    "timestamp": "2026-04-14T17:03:47.209498"
+  },
+  {
+    "membro_id": 4,
+    "nome": "Juceli freitas",
+    "telefone": "62398399",
+    "tipo_inatividade": "presenca",
+    "mensagem": "Olá Juceli freitas, sentimos sua falta! Como você e sua família estão? ",
+    "timestamp": "2026-04-14T17:03:47.739118"
+  },
+  {
+    "membro_id": 1,
+    "nome": "igor ferreira",
+    "telefone": "62999999999",
+    "tipo_inatividade": "ambos",
+    "mensagem": "Olá igor ferreira, sentimos sua falta! Como você e sua família estão? ",
+    "timestamp": "2026-04-14T17:06:25.659854"
+  },
+  {
+    "membro_id": 2,
+    "nome": "joao batista",
+    "telefone": "629334699",
+    "tipo_inatividade": "ambos",
+    "mensagem": "Olá joao batista, sentimos sua falta! Como você e sua família estão? ",
+    "timestamp": "2026-04-14T17:06:26.181337"
+  },
+  {
+    "membro_id": 4,
+    "nome": "Juceli freitas",
+    "telefone": "62398399",
+    "tipo_inatividade": "presenca",
+    "mensagem": "Olá Juceli freitas, sentimos sua falta! Como você e sua família estão? ",
+    "timestamp": "2026-04-14T17:06:26.709432"
+  }
+]
