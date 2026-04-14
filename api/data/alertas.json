@@ -19,5 +19,12 @@
     "nome": "joao batista",
     "tipo_inatividade": "ambos",
     "timestamp": "2026-04-14"
+  },
+  {
+    "id": 6,
+    "membro_id": 5,
+    "nome": "matheus santos",
+    "tipo_inatividade": "ambos",
+    "timestamp": "2026-04-14"
   }
 ]
