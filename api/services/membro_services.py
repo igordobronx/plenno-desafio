@@ -4,8 +4,7 @@ from sqlalchemy.orm import Session
 
 from api.database.models import Membro, Alerta
 from api.database.membro import MembroCreate, MembroInativo
-
-
+from api.utils.json_handler import salvar_alerta
 LIMITE = 30 #isso aq fica de regra de negocio (engenharia de software, meu curso), se caso necessita de mudança, apenas mudar aqui e já é automaticamente alterado
 
 def _calcular_tipo_inatividade(dias_presenca: int, dias_dizimo: int) -> Literal["presenca", "dizimo", "ambos"] | None:
@@ -83,5 +82,13 @@ def registrar_alerta(db: Session, membro_id: int, ) -> Alerta:
     db.add(alerta)
     db.commit()
     db.refresh(alerta)
-    return alerta
 
+    salvar_alerta({ #salvar no json
+          "id": alerta.id,
+          "membro_id": membro_id,
+          "nome": membro.nome,
+          "tipo_inatividade": tipo or "indefinido",
+          "timestamp": hoje.isoformat()
+      })
+
+    return alerta

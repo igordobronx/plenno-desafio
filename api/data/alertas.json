@@ -1,0 +1,23 @@
+[
+  {
+    "id": 3,
+    "membro_id": 4,
+    "nome": "Juceli freitas",
+    "tipo_inatividade": "presenca",
+    "timestamp": "2026-04-14"
+  },
+  {
+    "id": 4,
+    "membro_id": 1,
+    "nome": "igor ferreira",
+    "tipo_inatividade": "ambos",
+    "timestamp": "2026-04-14"
+  },
+  {
+    "id": 5,
+    "membro_id": 2,
+    "nome": "joao batista",
+    "tipo_inatividade": "ambos",
+    "timestamp": "2026-04-14"
+  }
+]
