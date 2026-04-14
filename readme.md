@@ -78,7 +78,7 @@ cp .env.example .env
 Edite o `.env` com sua chave:
 
 ```env
-ANTHROPIC_API_KEY=sk-ant-...
+GEMINI_API_KEY=sk-ant-...
 ```
 
 ---
